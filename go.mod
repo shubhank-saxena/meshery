@@ -3,7 +3,7 @@ module github.com/layer5io/meshery
 go 1.13
 
 require (
-	fortio.org/fortio v1.11.0
+	fortio.org/fortio v1.11.4
 	github.com/asaskevich/govalidator v0.0.0-20200428143746-21a406dcc535
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/docker/docker v1.13.1
@@ -36,8 +36,7 @@ require (
 	google.golang.org/grpc v1.34.0
 	google.golang.org/protobuf v1.25.0
 	gopkg.in/yaml.v2 v2.3.0
-  k8s.io/utils v0.0.0-20191010214722-8d271d903fe4 // indirect
-  k8s.io/api v0.18.12
+	k8s.io/api v0.18.12
 	k8s.io/apimachinery v0.18.12
 	k8s.io/client-go v0.18.12
 )
